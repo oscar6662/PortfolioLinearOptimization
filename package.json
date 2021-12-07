@@ -1,0 +1,27 @@
+{
+  "name": "portfoliolinearoptimization",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --server --files index.html styles.css ./assets/js/index.js",
+    "sass": "sass styles.scss styles.css",
+    "sass-watch": "sass --watch styles.scss styles.css",
+    "dev": "concurrently npm:sass-watch npm:browser-sync"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscar6662/PortfolioLinearOptimization.git"
+  },
+  "author": "óskar and Stefan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oscar6662/PortfolioLinearOptimization/issues"
+  },
+  "homepage": "https://github.com/oscar6662/PortfolioLinearOptimization#readme",
+  "devDependencies": {
+    "browser-sync": "^2.27.7",
+    "concurrently": "^6.4.0",
+    "sass": "^1.44.0"
+  }
+}

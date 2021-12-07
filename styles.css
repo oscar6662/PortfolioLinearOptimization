@@ -1,0 +1,33 @@
+@charset "UTF-8";
+/**
+ * Skilgreinum breytur sem sass breytur, en gerum einnig aðgengilegar
+ * sem css breytur.
+ */
+:root {
+  --spacing: 1rem;
+  --max-width: 1400px;
+  --color-text: #222;
+  --color-text-secondary: #222;
+  --color-link: #069;
+  --color-border: #ccc;
+  --font-size: 16px;
+  --font-family-base: Inter, Helvetica, Arial, sans-serif;
+  --font-family-heading: Playfair Display, Georgia, serif;
+  --columns: 12;
+  --gutter: 30px;
+  --offset: 20px;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.75);
+}
+header h1 {
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,44 @@
+/**
+ * Skilgreinum breytur sem sass breytur, en gerum einnig aðgengilegar
+ * sem css breytur.
+ */
+
+// Grunn bilið okkar er 1rem == 16px
+$spacing: 1rem;
+
+// Hámarksbreidd á efni
+$max-width: 1400px;
+
+$color-text: #222;
+$color-text-secondary: #222;
+$color-link: #069;
+$color-border: #ccc;
+
+// Letur stillingar
+$font-size: 16px;
+$font-family-base: 'Inter', Helvetica, Arial, sans-serif;
+$font-family-heading: 'Playfair Display', Georgia, serif;
+
+// Grid stillingar
+$grid-columns: 12;
+$grid-gutter: 30px;
+$grid-offset: 20px;
+
+:root {
+  --spacing: #{$spacing};
+  --max-width: #{$max-width};
+
+  --color-text: #{$color-text};
+  --color-text-secondary: #222;
+  --color-link: #{$color-link};
+  --color-border: #{$color-border};
+
+  --font-size: #{$font-size};
+  --font-family-base: #{$font-family-base};
+  --font-family-heading: #{$font-family-heading};
+
+  
+  --columns: #{$grid-columns};
+  --gutter: #{$grid-gutter};
+  --offset: #{$grid-offset};
+}
