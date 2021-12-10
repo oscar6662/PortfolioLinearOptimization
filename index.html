@@ -2,19 +2,48 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" href="/assets/img/favicon.ico">
-  <script src="/assets/js/index.js"></script>
   <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="/assets/js/index.js"></script>
+  <meta charset="UTF-8">
   <title>Portfolio Linear Optimization</title>
 </head>
 <header>
   <h1>Portfolio Linear Optimization</h1>
 </header>
 
-<body id="body">
-  <div id="root"></div>
+<body>
+
+  <div class="portfolio" id="portfolio">
+    <h2>My Portfolio</h2>
+    <div></div>
+    <button class="newpurchase">Enter new purchase</button>
+  </div>
+
+  <div id="myModal" class="modal">
+    <!-- Modal content -->
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <select class="currency">
+        <option>
+          BTC
+        </option>
+        <option>
+          ETH
+        </option>
+        <option>
+          ADA
+        </option>
+        <option>
+          XRP
+        </option>
+      </select>
+      <label>Amount</label>
+      <input class="amount"></input>
+      <button class="addNewPurchase">Add</button>
+    </div>
+
+  </div>
 </body>
 
 </html>

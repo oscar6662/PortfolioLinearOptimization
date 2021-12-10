@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "browser-sync": "browser-sync start --server --files index.html styles.css ./assets/js/index.js",
+    "browser-sync": "browser-sync start --server --files ./assets/js/index.js **/**/*.js styles.css index.html",
     "sass": "sass styles.scss styles.css",
     "sass-watch": "sass --watch styles.scss styles.css",
     "dev": "concurrently npm:sass-watch npm:browser-sync"
@@ -23,5 +23,8 @@
     "browser-sync": "^2.27.7",
     "concurrently": "^6.4.0",
     "sass": "^1.44.0"
+  },
+  "dependencies": {
+    "ccxt": "^1.63.45"
   }
 }

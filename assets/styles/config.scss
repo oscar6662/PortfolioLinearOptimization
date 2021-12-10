@@ -42,3 +42,6 @@ $grid-offset: 20px;
   --gutter: #{$grid-gutter};
   --offset: #{$grid-offset};
 }
+* {
+  margin:0;
+}
