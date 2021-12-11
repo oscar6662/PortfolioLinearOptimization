@@ -25,6 +25,7 @@
     "sass": "^1.44.0"
   },
   "dependencies": {
-    "ccxt": "^1.63.45"
+    "ccxt": "^1.63.45",
+    "javascript-lp-solver": "^0.4.24"
   }
 }
